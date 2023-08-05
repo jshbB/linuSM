@@ -2,7 +2,11 @@ import os
 import time
 def unkown_distro():
 	print("UKNOWN DISTRO")
-
+class logging:
+    def create_log(context):
+        context = str(context)
+        log = open("latest.log", "w")
+        log.write(context)
 def on_startup():
 	print("""
 	##              $$$$$$$$$       |\            /|
@@ -35,8 +39,13 @@ neo_args_kernal = "-D kernal"
 on_startup()
 while True:
 	linusm = input("linusm >>> ")
+	
 	if linusm=="neofh "+neo_args_distro_ubuntu:
 		neofetch.find("ubuntu")
+	elif linusm.startswith("$"):
+		pass
+	elif linusm.__contains__("+"):
+		print(eval(linusm))
 	elif linusm=="neofh "+neo_args_distro_kali:
 		neofetch.find("kali")
 	elif linusm=="neofh "+neo_args_kernal:
@@ -79,8 +88,7 @@ while True:
 		os.system("clear")
 	elif linusm=="cls":
 		os.system("clear")
-	elif linusm=="neofh -D arch":
-		neofetch.find("arch")
+	
 	else:
 		print(" ")
 		print("Unkown Command Try again")
