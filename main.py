@@ -60,11 +60,11 @@ while True:
 			neofetch.find("windows7")
 		except:
 			neofetch("windows")
-	elif linusm=="neofh --redirectOS ubuntu => kali":
+	elif linusm=="neofh --swap ubuntu => kali":
 		os.system("clear")
 		print("Linusm >>> neofh -D ubuntu")
 		time.sleep(1)
-		neofetch.neofetch("kali")
+		neofetch.find("kali")
 	elif linusm=="neofh --changefechOS -Or ubuntu => kali":
 		os.system("clear")
 		print("Linusm >>> neofetch --ascii_distro ubuntu")
