@@ -70,9 +70,8 @@ while True:
 		print("Linusm >>> neofetch --ascii_distro ubuntu")
 		time.sleep(1)
 		neofetch("kali")
-	elif linusm=="disp()":
-		disp = input("disp: ")
-		os.system("echo "+disp)
+	elif linusm.startswith("shout"):
+		print(linusm.removeprefix("shout "))
 	elif linusm=="clear --startuplogo":
 		os.system("clear")
 		on_startup()
