@@ -46,6 +46,12 @@ while True:
 		pass
 	elif linusm.__contains__("+"):
 		print(eval(linusm))
+	elif linusm.__contains__("-"):
+    	print(eval(linusm))
+    elif linusm.__contains__("/"):
+    	print(eval(linusm))
+    elif linusm.__contains__("*"):
+    	print(eval(linusm))
 	elif linusm=="neofh "+neo_args_distro_kali:
 		neofetch.find("kali")
 	elif linusm=="neofh "+neo_args_kernal:

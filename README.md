@@ -10,3 +10,9 @@ This should do the trick!
 # Features
 - Currently has Neofetch command in a short manner for ease
 - Added `shout` which is literally `echo`
+- Added Addition
+# Features you can expect
+- Other arithmatic operations
+- More Linux commands.
+- Some fun commands!
+#### Suggest me any features which you think should be added LinuSM! I'd be happy to add it
