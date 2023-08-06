@@ -1,6 +1,6 @@
 # LinuSM!
 A linux command line tool for you own ease
-- Documentation Sections
+- Documentation
 - [Setup](https://github.com/RomeandAlphaGuylol/linuSM/tree/main#setup)
 - [Features](https://github.com/RomeandAlphaGuylol/linuSM/tree/main#features)
 - [Commands](https://github.com/RomeandAlphaGuylol/linuSM/tree/main#commands)
@@ -16,11 +16,11 @@ This should do the trick!
 - Added `shout` which is literally `echo`
 - Added Addition
 # Commands
-- shout
+
 ### `shout` <text> -- Prints out a text
-- ls
+
 ## `ls` -- shows files and folders present in the directory
-- clear
+
 ## `clear` -- clears the terminal/linuSM instance.
 ## `neofh` -- Neofetch in short. commands in short and more.
 ### `neofh -D kali` -- Kali Linux's neofetch.
