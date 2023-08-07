@@ -1,7 +1,7 @@
 import os
 import time
 from manual import *
-def unkown_distro():
+def unknown_distro():
 	print("UKNOWN DISTRO")
 class logging:
     def create_log(context):
